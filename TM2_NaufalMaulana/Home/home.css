@@ -1,0 +1,85 @@
+
+/* huruf font */
+
+body,
+footer {
+  font-family: 'Poppins';
+}
+
+/* background  */
+
+.flex-container {
+  display: flex;
+  background-color: #ced4da;
+}
+
+/* bg box  */
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* bayangan kartu */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  transition: 0,9s;
+  width: 100%;
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/* nabar */
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #495057;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+/* garis navbar */
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  height: auto;
+  width: auto;
+}
+
+/* font navbar */
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* warna bg navbar pada saat cursor di atasnnya */
+
+li a:hover {
+  background-color: #6c757d;
+}
+
+/* halman yg di pilih */
+
+.active {
+  background-color: #343a40;
+}
+
